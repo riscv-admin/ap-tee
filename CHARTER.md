@@ -2,7 +2,7 @@
 
 Acting Chair: Ravi Sahita
 
-Confidential computing defines the mechanisms for protecting the confidentiality and integrity of data-in-use against software and hardware attacks via a hardware-attested Trusted Compute Base (TCB). This TG will define the threat model, reference architecture and interfaces for Scalable Trusted Execution Environments on RISC-V Application Processor-based platforms to support confidential-compute scenarios. The TG will focus on multi-tenant hardware-virtualized workloads to enable the broadest set of confidential workloads while minimizing application changes.  
+Confidential computing defines the mechanisms for protecting the confidentiality and integrity of data-in-use against software and hardware attacks. The data-in-use protection is achieved via a hardware-attested Trusted Compute Base (TCB). This TG will define the threat model, reference architecture and interfaces for Scalable Trusted Execution Environments on RISC-V Application Processor-based platforms to support confidential-compute scenarios. The TG will focus on multi-tenant hardware-virtualized workloads to enable the broadest set of confidential workloads while minimizing application changes.  
 
 The TG aims to deliver: 
 * A non-ISA specification for an ABI between the TCB and non-TCB components. This ABI enables OS/VMM software to manage confidential workloads, while keeping the OS/VMM software, firmware, developers and system operators outside the TCB.  A related non-ISA specification for an ABI between the TCB and workload components e.g. a TEE VM will be specified. 
